@@ -1,62 +1,29 @@
-# CodeIgniter 4 Application Starter
+# WCode
 
-## What is CodeIgniter?
+Media pembelajaran berbasis Responsive Web Design dengan timer Pomodoro untuk materi Pemrograman Web, terdapat 2 user yaitu siswa dan guru
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Siswa
+- Dapat mempelajari materi, praktik live coding, mengerjakan kuis.
+- Belajar dengan fitur timer Pomodoro
+- Memantau progress belajarnya
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Guru
+- Melakukan CRUD materi
+- Mengelola materi dengan WYSIWYG
+- Memantau nilai dan perkembangan belajar siswa
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Halaman Siswa
+<img src="https://github.com/user-attachments/assets/4904c330-9304-4571-944f-991261a96f4c" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/cc6af6f8-c01a-42e2-b079-c52a91c791cf" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/d43be680-de33-4a00-ae25-1341cf9c4755" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/ccd84b99-9341-4b8b-a94d-95afcedffbd7" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/7aa56989-363e-4430-9546-0cf25f0cee58" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/0ebcdec7-0dc3-483b-81cd-a7a61167fa65" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/49e290b1-3a58-4b76-8ff8-d4eff3720d3e" width="1000" height="500">
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## Halaman Guru
+<img src="https://github.com/user-attachments/assets/7f86b637-1f44-457a-b043-79dc88dc6dae" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/ee273980-9bb6-40a4-957a-e7ee8dfead1b" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/e049bcda-334c-4225-adc9-831276f00b6c" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/142712db-4ae2-4f95-9dc4-e2a80e644151" width="1000" height="500">
+<img src="https://github.com/user-attachments/assets/b63b48f6-edf9-41c7-b6fb-4f6b25a0f953" width="1000" height="500">
